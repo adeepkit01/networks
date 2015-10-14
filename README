@@ -115,3 +115,18 @@ familiar with it.
 If you have successfully installed mercurial, you can get
 a copy of the development version with the following command:
 "hg clone http://code.nsnam.org/ns-3-dev"
+
+
+
+
+INFORMATION ABOUT ADDED DHCP CODE
+----------------------------------
+
+For implementing DHCP we have added 3 classes in model of internet (client, server and header)
+and a helper class in same module.
+
+Two test examples have been included in the scratch folder dhcp-test.cc and dhcp-test1.cc
+These can be executed using waf
+
+./waf --run scratch/dhcp-test
+./waf --run scratch/dhcp-test1
