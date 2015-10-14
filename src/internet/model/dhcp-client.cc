@@ -316,7 +316,7 @@ NS_LOG_INFO ("[node " << GetNode()->GetId() << "]  "<< "Trace TX: DHCP ADDRESS R
                 NS_LOG_INFO ("[node " << GetNode()->GetId() << "]  "<< "Error while sending DHCP REQ to " << m_peerAddress);
             }
             m_state= WAIT_ACK;
-             m_rtrsEvent = Simulator::Schedule (Seconds (REFRESH_TIMEOUT), &DhcpClient::RtrsHandler, this);
+
             //m_socket->SetRecvCallback(MakeCallback(&DhcpClient::NetHandler, this)); 
 
             //m_refreshEvent = Simulator::Schedule (Seconds (REFRESH_TIMEOUT), &DhcpClient::RunEfsm, this); 

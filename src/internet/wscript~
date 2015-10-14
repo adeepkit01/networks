@@ -207,14 +207,6 @@ def build(bld):
         'model/ripng.cc',
         'model/ripng-header.cc',
         'helper/ripng-helper.cc',
-        'model/dhcp-header.cc',
-        'helper/dhcp-helper.cc',
-        'model/dhcp-server.cc',
-        'model/dhcp-client.cc',
-        'model/dhcpv6-header.cc',
-        'helper/dhcpv6-helper.cc',
-        'model/dhcpv6-server.cc',
-        'model/dhcpv6-client.cc',
         ]
 
     internet_test = bld.create_ns3_module_test_library('internet')
@@ -347,14 +339,6 @@ def build(bld):
         'model/ripng.h',
         'model/ripng-header.h',
         'helper/ripng-helper.h',
-        'model/dhcp-header.h',
-        'helper/dhcp-helper.h',
-        'model/dhcp-server.h',
-        'model/dhcp-client.h',
-        'model/dhcpv6-header.h',
-        'helper/dhcpv6-helper.h',
-        'model/dhcpv6-server.h',
-        'model/dhcpv6-client.h',
        ]
 
     if bld.env['NSC_ENABLED']:

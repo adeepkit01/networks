@@ -7,9 +7,8 @@
     
 
 // Module headers:
-#include "dhcp-client.h"
-#include "dhcp-header.h"
 #include "dhcp-helper.h"
 #include "dhcp-server.h"
-#include "dhcp.h"
+#include "dhcp-client.h"
+#include "dhcp-header.h"
 #endif
