@@ -34,7 +34,7 @@
 #define DHCPACK                 3
 #define DHCPNACK                4
 
-#define IDLEE                    0
+#define IDLEE                   0
 #define TESTIDLE                5
 #define WAIT_OFFER              1
 #define REFRESH_LEASE           2
