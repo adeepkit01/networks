@@ -45,7 +45,7 @@ namespace ns3 {
     //  ApplicationContainer Install (NodeContainer c);
     private:
     Ptr<Application> InstallPriv (Ptr<Node> node) const;
-    ObjectFactory m_factory;
+    ObjectFactory MFactory;
   };
   
   class DhcpServerHelper{
@@ -64,7 +64,7 @@ namespace ns3 {
     ApplicationContainer Install (Ptr<Node> node) const;
     private:
     Ptr<Application> InstallPriv (Ptr<Node> node) const;
-    ObjectFactory m_factory;
+    ObjectFactory MFactory;
   };
   
   
